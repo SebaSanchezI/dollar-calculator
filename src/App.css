@@ -1,0 +1,52 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+main  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.side {
+    padding: 16px;
+    width: 100%;
+}
+
+.leftSide {
+   width: 100%;
+   flex: 1;
+}
+
+.rightSide {
+    width: 100%;
+    flex: 2;
+}
+
+.values {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+span {
+    color:darkorange;
+}
